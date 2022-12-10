@@ -1,0 +1,73 @@
+[debug] [2022-12-10T01:17:29.159Z] ----------------------------------------------------------------------
+[debug] [2022-12-10T01:17:29.161Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-12-10T01:17:29.162Z] CLI Version:   11.17.0
+[debug] [2022-12-10T01:17:29.162Z] Platform:      darwin
+[debug] [2022-12-10T01:17:29.162Z] Node Version:  v18.9.1
+[debug] [2022-12-10T01:17:29.164Z] Time:          Fri Dec 09 2022 17:17:29 GMT-0800 (Тихоокеанское стандартное время)
+[debug] [2022-12-10T01:17:29.164Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-10T01:17:29.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-10T01:17:29.170Z] > authorizing via signed-in user (maksatbeknurtilek08@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/user/Downloads/quote-advanced-project-v6-school-master
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-10T01:17:53.452Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-12-10T01:17:56.373Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-12-10T01:17:56.373Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project add-quote-97d13 (add-quote) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-12-10T01:18:16.929Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-12-10T01:18:17.140Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-12-10T01:18:17.140Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /Users/user/Downloads/quote-advanced-project-v6-school-master is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=603800815&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-12-10T01:18:36.603Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-12-10T01:18:36.603Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-12-10T01:18:37.079Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-12-10T01:18:37.080Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-12-10T01:18:37.087Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-12-10T01:18:37.583Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-12-10T01:18:37.583Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Nurtimax","id":109609357,"node_id":"U_kgDOBoiBjQ","avatar_url":"https://avatars.githubusercontent.com/u/109609357?v=4","gravatar_id":"","url":"https://api.github.com/users/Nurtimax","html_url":"https://github.com/Nurtimax","followers_url":"https://api.github.com/users/Nurtimax/followers","following_url":"https://api.github.com/users/Nurtimax/following{/other_user}","gists_url":"https://api.github.com/users/Nurtimax/gists{/gist_id}","starred_url":"https://api.github.com/users/Nurtimax/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Nurtimax/subscriptions","organizations_url":"https://api.github.com/users/Nurtimax/orgs","repos_url":"https://api.github.com/users/Nurtimax/repos","events_url":"https://api.github.com/users/Nurtimax/events{/privacy}","received_events_url":"https://api.github.com/users/Nurtimax/received_events","type":"User","site_admin":false,"name":"Nurtimax","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":41,"public_gists":0,"followers":9,"following":11,"created_at":"2022-07-19T14:38:02Z","updated_at":"2022-12-07T14:46:41Z","private_gists":0,"total_private_repos":9,"owned_private_repos":9,"disk_usage":165218,"collaborators":7,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Nurtimax 
+[info] 
+[debug] [2022-12-10T01:19:50.726Z] >>> [apiv2][query] GET https://api.github.com/repos/for_build/actions/secrets/public-key type=owner
+[debug] [2022-12-10T01:19:51.132Z] <<< [apiv2][status] GET https://api.github.com/repos/for_build/actions/secrets/public-key 404
+[debug] [2022-12-10T01:19:51.133Z] <<< [apiv2][body] GET https://api.github.com/repos/for_build/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-12-10T01:19:53.148Z] >>> [apiv2][query] GET https://api.github.com/repos/for_build/actions/secrets/public-key type=owner
+[debug] [2022-12-10T01:19:53.540Z] <<< [apiv2][status] GET https://api.github.com/repos/for_build/actions/secrets/public-key 404
+[debug] [2022-12-10T01:19:53.540Z] <<< [apiv2][body] GET https://api.github.com/repos/for_build/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-12-10T01:19:57.098Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-12-10T01:19:57.493Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-12-10T01:19:57.493Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-12-10T01:19:57.802Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-12-10T01:19:59.218Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-12-10T01:19:59.218Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
